@@ -1,0 +1,65 @@
+.naver{
+    display:flex;
+    gap: 25px;
+    width: 100%;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 30px;
+
+}
+.logo{
+    display: flex;
+    gap: 25px;
+}
+.logo img{
+    display: flex;
+    gap: 25px;
+    width: 120px;
+}
+.searchbar{
+    width:35rem;
+    height: 40px;
+    border:1px solid rgb(71, 71, 71);
+    text-indent: 10px;
+    padding:0 10px;
+}
+
+
+
+.searchbtn{
+    height: 40px;
+    padding:0 20px;
+    border:1px solid rgb(71, 71, 71);
+    margin-right: 10px;
+}
+
+.navcontent{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+.bisearcher{
+    display:none
+}
+
+@media screen and (max-width:1020px) {   
+    .naver{
+    padding:0 10px;
+}
+    .menubar{
+        display: none;
+    }
+    .search{
+        display: none;
+    }
+    .bisearcher{
+    display:block
+}
+.navcontent{
+    display: flex;
+    gap: 18px;
+    align-items: center;
+}
+
+}

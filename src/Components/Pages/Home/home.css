@@ -1,0 +1,27 @@
+.homeItems{
+    display:flex;
+    
+}
+
+.menuList{
+    width: 17%;
+    margin-top: 30px;
+}
+.contentList{
+    width: 82%;
+    background-color:#F9F9F9;
+    color:black
+}
+
+
+
+@media screen and (max-width:1020px) {
+    .contentList {
+            width: 100%;
+
+    }
+    .menuList {
+            display: none;
+
+    }
+}
