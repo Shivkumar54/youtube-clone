@@ -1,0 +1,21 @@
+.div {
+    width: 80%;
+}
+.sliderr {
+  background-color: grey;
+  font-size: 12px;
+  width: auto;
+}
+.slider-arrow {
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+}
+
+.arrow-btn {
+  top: 45%;
+}
+.next {
+  float: right;
+}
