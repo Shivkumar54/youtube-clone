@@ -16,7 +16,7 @@ const ContentList = () => {
 
   return (
     <div>
-      <div className="container content">
+      <div className="content">
         {/* <ContentSlider /> */}
         <div className="row rower mx-auto ">
           <div className="col-12 mx-auto coller">
